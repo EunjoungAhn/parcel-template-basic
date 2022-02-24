@@ -7,6 +7,9 @@
     "parcel-bundler": "^1.12.5"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
     "autoprefixer": "^10.4.2",
     "parcel-plugin-static-files-copy": "^2.6.0",
     "postcss": "^8.4.6",
@@ -19,11 +22,8 @@
   "staticFiles": {
     "staticPath": "static"
   },
-  "browserslist":[
+  "browserslist": [
     "> 1%",
     "last 2 versions"
-  ],
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  ]
 }
